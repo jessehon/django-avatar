@@ -52,9 +52,12 @@ setup(
             'media/avatar/img/default.jpg',
         ],
     },
+    dependency_links = [
+        'https://api.github.com/repos/jessehon/django-appconf/tarball/v0.6.1#egg=django-appconf-0.6.1'
+    ],
     install_requires=[
         'Pillow>=2.0',
-        'django-appconf>=0.6',
+        'django-appconf>=0.6.1',
     ],
     zip_safe=False,
 )
